@@ -62,7 +62,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: 'Alumni Sans Collegiate One', sans-serif;
+  --bs-body-font-family: 'Open Sans', sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -98,6 +98,33 @@ body {
 b {
   color: class="bg-black"
 }
+
+
+bodyy {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: rgb(255,255,255);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.bodyyy {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: 1.05rem;
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  text-align: var(--bs-body-text-align);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --bs-body-font-weight: 200;
+}
+
 
 hr {
   margin: 1rem 0;
@@ -324,6 +351,12 @@ figure {
 img,
 svg {
   vertical-align: middle;
+}
+
+
+.imground {
+border-radius: 50%;
+
 }
 
 table {
@@ -626,6 +659,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: 100%;
+  background-color: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%);
 }
 
 .img-thumbnail {
@@ -3264,7 +3298,7 @@ textarea.form-control-lg {
 }
 
 .btn-dark {
-  color: #fff;
+  color: #ffc800;
   background-color: #212529;
   border-color: #212529;
 }
@@ -4588,6 +4622,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card > hr {
   margin-right: 0;
@@ -4619,6 +4654,10 @@ textarea.form-control-lg {
 
 .card-title {
   margin-bottom: 0.5rem;
+}
+
+.card-title1 {
+  margin-bottom: 0rem;
 }
 
 .card-subtitle {
@@ -4787,7 +4826,6 @@ textarea.form-control-lg {
   z-index: 3;
   border-color: #ffe480;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
 }
 
 .accordion-header {
@@ -6086,6 +6124,8 @@ textarea.form-control-lg {
           backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
 }
+
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none;
@@ -11470,7 +11510,7 @@ p {
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Open Sans";
   margin-bottom: 4rem;
 }
 
@@ -11499,7 +11539,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: transparent;
+  background-color: rgba(52,52,52,0.70);
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11592,30 +11632,67 @@ header.masthead {
   background-size: cover;
 }
 
-
+.drk:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: 0.5;
+  z-index: 1;
+}
 
 header.masthead0 {
-background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/Compressed/andrew-george-g-fm27_BRyQ-unsplash.jpg")
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/albert-einstein-masthead.jpg")
 }
 
 header.masthead1 {
-  background-image: url("../assets/img/Compressed/Robin_Hood-1912_lowres-scene.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/robin-hood.jpg");
 }
 
 header.masthead2 {
-  background-image: url("../assets/img/Compressed/Thekelpie_large.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/kelpie.jpg");
 }
 
 header.masthead3 {
-  background-image: url("../assets/img/Compressed/pexels-pixabay-45217.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/king-arthur-horse.jpg");
 }
 
 header.masthead4 {
-  background-image: url("../assets/img/Compressed/2560px-Lady_Godiva_Statue_In_Coventry.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/lady-godiva-coventry.jpg");
 }
 
 header.masthead5 {
   text-align: left;
+}
+
+.btmnext0 {
+  background-image: linear-gradient(90deg,rgba(126, 185, 157, 1) 30%, rgba(0, 0, 0, 0.0) 75%, #1111 100%), url("../assets/img/index-headers/kelpie.jpg")
+  }
+
+.btmnext1 {
+    background-image: linear-gradient(90deg,rgba(126, 185, 157, 1) 30%, rgba(0, 0, 0, 0.0) 90%, #1111 100%), url("../assets/img/kelpies/king-arthur-box.jpg")
+    }
+
+.btmnext2 {
+      background-image: linear-gradient(90deg,rgba(126, 185, 157, 1) 30%, rgba(0, 0, 0, 0.0) 90%, #1111 100%), url("../assets/img/king-arthur/lady-godiva-box.jpg")
+      }
+
+.img-overlay
+      {
+          position: relative;
+      }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.5);
 }
 
 header.masthead .masthead-subheading {
@@ -11977,6 +12054,14 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footer {
   text-align: center;
   font-size: 0.9rem;
+  color:#ffc800;
+  font-family: "Grenze Gotisch", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.footer1 {
+  text-align: center;
+  font-size: 0.9rem;
+  color:#212529;
   font-family: "Grenze Gotisch", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -12082,7 +12167,7 @@ blockquote {
 ------------------------- */
 
 .featured-background {
-  background-color: #42295b;
+  background-color: #7EBD9D;
 }
 
 .display-4 {
@@ -12200,6 +12285,24 @@ blockquote {
     padding-top: percentage(1 / 1);
   }
 }
+
+.bayor {
+  background-color: rgba(248, 247, 216, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.newbg {
+  background-color: #343434;
+}
+
 /* Video responsivness --*/
 /* Featured Posts End
 ------------------------- */
