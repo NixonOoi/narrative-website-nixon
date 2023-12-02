@@ -730,8 +730,6 @@ progress {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-0.5 * var(--bs-gutter-x));
-  margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 .row > * {
   flex-shrink: 0;
@@ -4094,6 +4092,8 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4880,6 +4880,10 @@ textarea.form-control-lg {
 }
 .accordion-flush .accordion-item .accordion-button {
   border-radius: 0;
+}
+
+.balance1 {
+  flex-wrap: wrap;
 }
 
 .breadcrumb {
@@ -7961,6 +7965,9 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
 }
 
 .text-black-50 {
@@ -11499,7 +11506,7 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -11667,6 +11674,7 @@ header.masthead4 {
 
 header.masthead5 {
   text-align: left;
+  padding-left: 1rem;
 }
 
 .btmnext0 {
@@ -11709,6 +11717,13 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
   font-family: "Grenze Gotisch", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+header.masthead .masthead-heading1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Grenze Gotisch", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 
 @media (min-width: 768px) {
   header.masthead {
@@ -11716,7 +11731,7 @@ header.masthead .masthead-heading {
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
-    font-size: 2.25rem;
+    font-size: 2.4rem;
     font-style: italic;
     line-height: 2.9rem;
     margin-bottom: 2rem;
@@ -11727,7 +11742,15 @@ header.masthead .masthead-heading {
     line-height: 4.5rem;
     margin-bottom: 4rem;
   }
+
+header.masthead .masthead-heading1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  margin-bottom: 4rem;
 }
+}
+
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
