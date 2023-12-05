@@ -11653,23 +11653,23 @@ header.masthead {
 }
 
 header.masthead0 {
-background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/albert-einstein-masthead.jpg")
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/albert-einstein-masthead.jpg")
 }
 
 header.masthead1 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/robin-hood.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/robin-hood.jpg");
 }
 
 header.masthead2 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/kelpie.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/kelpie.jpg");
 }
 
 header.masthead3 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/king-arthur-horse.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/king-arthur-horse.jpg");
 }
 
 header.masthead4 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/lady-godiva-coventry.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/index-headers/lady-godiva-coventry.jpg");
 }
 
 header.masthead5 {
