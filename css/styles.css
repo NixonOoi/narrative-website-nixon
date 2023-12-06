@@ -4862,6 +4862,7 @@ textarea.form-control-lg {
 
 .accordion-body {
   padding: 1rem 1.25rem;
+  word-wrap: break-word;
 }
 
 .accordion-flush .accordion-collapse {
