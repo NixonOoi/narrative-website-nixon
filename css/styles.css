@@ -1447,9 +1447,6 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
   }
 
   .col-lg-7 {
